@@ -9,6 +9,7 @@ public class ReadDataFromcmdLine {
 		System.out.println(BROWSER);
 		String URL=System.getProperty("url");
 		System.out.println(URL);
+		System.out.println(System.getProperty("password"));
 	}
 
 }
